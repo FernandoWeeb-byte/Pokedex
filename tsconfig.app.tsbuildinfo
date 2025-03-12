@@ -1,0 +1,1 @@
+{"root":["./src/src-env.d.ts","./src/assets/mockallpokemon.ts","./src/assets/mockdetailpidgeotto.ts","./src/assets/mockspeciespidgeotto.ts","./src/components/app.tsx","./src/components/badgetype.tsx","./src/components/listitem.tsx","./src/components/stats.tsx","./src/helpers/index.ts","./src/service/api.ts"],"version":"5.8.2"}

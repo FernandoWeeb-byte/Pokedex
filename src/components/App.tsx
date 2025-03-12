@@ -33,7 +33,7 @@ function App() {
     return getImageConfigFromType(pkmnFirstType);
   }, [selectedPkmn]);
 
-  async function handlePokemonSelect(name: string) {
+  function handlePokemonSelect(name: string) {
     const apiPokemonPromise = api.getPokemonByName(name);
     const apiSpeciesPromise = api.getPokemonSpeciesByName(name);
     Promise.all([apiPokemonPromise, apiSpeciesPromise]).then((results) => {
